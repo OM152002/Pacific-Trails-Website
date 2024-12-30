@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel = "stylesheet" href = "sign.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <script src="https://kit.fontawesome.com/3d7066e0d7.js" crossorigin="anonymous"></script>
+    
+
+</head>
+<body>
+    <div class ="container">
+        <div class = "Main-Box">
+            <h1>
+                <span data-text="Pacific">Pacific</span>
+                <span data-text="Trails">Trails</span>
+                <span data-text="Resort">Resort</span>
+            </h1>
+            <h2 id="Title">Sign Up</h2>
+            <form>
+                <div class="groups">
+                    <div class="fields" id="Namefield">
+                        <i class="fa-solid fa-user"></i>
+                        <input type ="text" id="full_name" placeholder="Name">
+                    </div>
+
+                    <div class="fields">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type ="email" id="email" placeholder="Email">
+                    </div>
+
+                    <div class="fields">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type ="password" id="password" placeholder="Password">
+                    </div>
+
+                    <div class="fields" id="Passwordfield">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type ="password" id="confirm" placeholder="Confirm Password">
+                    </div>
+
+                    <p>Forgot Password? <a href="#">Click Here!</a></p>
+                </div>
+                <div class="Buttons">
+                    <button type ="button" id="btn1" onclick="register()">Sign Up</button>
+                    <button type ="button" id ="btn2" class="disable">Login</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+</body>
+<script src="https://www.gstatic.com/firebasejs/10.12.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.4/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.4/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-analytics.js"></script>
+<script src="sign.js"></script>
+</html>
