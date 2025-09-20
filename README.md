@@ -1,3 +1,5 @@
+# Pacific Trails Resort Website
+
 A fully functional, multi-page website built for **Pacific Trails Resort**, showcasing modern web design with authentication features. The site includes a responsive landing page, multiple content pages, and user authentication powered by Firebase.
 
 ---
@@ -13,9 +15,8 @@ The Pacific Trails Resort Website demonstrates a complete front-end and back-end
 
 ## ⚙️ Tech Stack
 - **Frontend**: HTML, CSS, JavaScript  
-- **Backend/Services**: Firebase Authentication, Firebase Realtime Database  
-- **Deployment**: (Add platform if you hosted, e.g., Netlify, Vercel, Firebase Hosting)
-
+- **Backend/Services**: Firebase Authentication, Firebase Realtime Database
+  
 ---
 
 ## 🚀 Features
